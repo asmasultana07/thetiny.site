@@ -10,47 +10,19 @@ thetiny.site/
 ├── src/
 │   ├── components/
 │   │   ├── Navbar/
-│   │   │   ├── Navbar.jsx
-│   │   │   └── index.js
 │   │   ├── HeroShortener/
-│   │   │   ├── HeroShortener.jsx
-│   │   │   └── index.js
 │   │   ├── TrustMetric/
-│   │   │   ├── TrustMetric.jsx
-│   │   │   └── index.js
 │   │   ├── PopularLinks
-│   │   │   ├── PopularLinks.jsx
-│   │   │   └── index.js
-│   │   ├── PoluarLinks/
-│   │   │   └── index.js
 │   │   ├── PremiumFeatures/
-│   │   │   ├── PremiumFeatures.jsx
-│   │   │   └── index.js
 │   │   ├── Pricing/
-│   │   │   ├── Pricing.jsx
-│   │   │   └── index.js
 │   │   ├── Testimonials/
-│   │   │   ├── Testimonials.jsx
-│   │   │   └── index.js
 │   │   ├── AnalyticsPreview/
-│   │   │   ├── AnalyticsPreview.jsx
-│   │   │   └── index.js
 │   │   ├── WhyChoose/
-│   │   │   ├── WhyChoose.jsx
-│   │   │   └── index.js
 │   │   ├── FAQ/
-│   │   │   ├── FQA.jsx
-│   │   │   └── index.js
 │   │   ├── Footer/
-│   │   │   ├── Footer.jsx
-│   │   │   └── index.js
 │   │   └── ui/
 │   │       ├── button/
-│   │       │   ├── Button.jsx
-│   │       │   └── index.js
 │   │       └── loading/
-│   │           ├── Loading.jsx
-│   │           └── index.js
 │   ├── App.css
 │   ├── App.jsx
 │   ├── index.css
