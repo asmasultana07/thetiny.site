@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-slate-950 text-slate-100 antialiased selection:bg-violet-500 selection:text-white;
+    font-family: 'Aldrich', 'Inter',  system-ui, -apple-system,sans-serif;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  button, a, input { -webkit-tap-highlight-color: transparent; }
+}
+ 

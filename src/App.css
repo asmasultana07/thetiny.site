@@ -1,0 +1,46 @@
+.app-container {
+  min-height: 100vh;
+  overflow: hidden;
+  background: radial-gradient(circle at 50% -15%, rgb(76 29 149 / 0.35), transparent 32rem), #020617;
+}
+
+main {
+  position: relative;
+}
+
+/* Soft white/lavender theme used when the navbar toggle switches the homepage. */
+.light {
+  color: #31265c;
+  background: #fbfaff;
+}
+
+.light .app-container {
+  background: radial-gradient(circle at 50% -15%, rgb(196 181 253 / 0.3), transparent 32rem), #fbfaff;
+}
+
+.light [class~="text-white"] { color: #2f2459 !important; }
+.light [class~="text-slate-100"],
+.light [class~="text-slate-200"] { color: #41356d !important; }
+.light [class~="text-slate-300"],
+.light [class~="text-slate-400"],
+.light [class~="text-slate-500"] { color: #756a99 !important; }
+.light [class~="border-white/10"] { border-color: #e9e2f8 !important; }
+.light [class~="bg-white/[0.025]"],
+.light [class~="bg-white/[0.04]"],
+.light [class~="bg-white/[0.06]"] { background-color: rgb(255 255 255 / 0.72) !important; }
+.light [class~="bg-slate-900/70"],
+.light [class~="bg-slate-900/60"],
+.light [class~="bg-slate-950/60"],
+.light [class~="bg-slate-950/30"] { background-color: #f4f0ff !important; }
+.light [class~="bg-slate-950"] { background-color: #f4f0ff !important; }
+.light [class~="shadow-violet-950/30"],
+.light [class~="shadow-violet-950/20"] { --tw-shadow-color: rgb(139 92 246 / 0.12) !important; }
+
+/* The primary navbar CTA stays white on its purple light-mode background. */
+.light .navbar-cta { color: #ffffff !important; }
+.light .hero-primary-cta { color: #ffffff !important; }
+.light .popular-links-copy { color: #ffffff !important; }
+
+/* Trust metrics keep the same purple visual treatment in both themes. */
+/* .light .trust-metric { background: linear-gradient(100deg, rgb(76 29 149 / 0.92), rgb(124 58 237 / 0.82), rgb(76 29 149 / 0.92)) !important; border-color: rgb(167 139 250 / 0.45) !important; } */
+.light .trust-metric [class~="text-white"] { color: #ffffff !important; } 
